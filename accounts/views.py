@@ -5,7 +5,7 @@ from django.contrib.auth.models import User, auth
 from django.contrib import messages
 
 def home(request):
-    return render(request, 'home.html',)
+    return render(request, 'index.html',)
 
 def profile(request):
     return render(request, 'profile.html',)
